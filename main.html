@@ -8,24 +8,51 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>ARIA ROLES</h1>	
-	<nav>
+	<nav role="navigation">
 		<ul>
 			<li>
-				<a href="#about">About</a>
+				<a role="listitem" href="#home">Home</a>
 			</li>
 			<li>
-				<a href="#blogs">Blogs</a>
+				<a role="listitem" href="about">About</a>
 			</li>
 			<li>
-				<a href="#education">
-					Education
-				</a>
+				<a role="listitem" href="#project">Projects</a>
 			</li>
-		</ul>	
+			<li>
+				<a role="listitem" href="#contact">Contact us</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- main containt -->
+	<mani>
+		<h1 role="heading" aria-level="1"> My Portfolio</h1>
+		<img src="https://img.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?semt=ais_hybrid" width="200px">
+		<section aria-labelledby="about">
+		<h1 id="about" role="heading" aria-level="2">About Me</h1>
+		<P> Welcome to my portfolio! I'm vivesh, a passionate web developer with a focus on accessibility and usability. Here, you can find some of my projects and skills. </P>
+	</section>
+		<section aria-labelledby="project">
+			<h1 id="project" role="heading" aria-level=2>Projects</h1>
+			<ul>
+				<li>
+					<a role ="listitem">Web-Designer</a>
+				</li>
+				<li>
+					<a role ="listitem">UX-Designer</a>
+				</li>
+				<li>
+					<a role ="listitem">E-commerce Designer</a>
+				</li>
+			</ul>
+		</section>
+		
+	</mani>
+	<footer aria-labelledby="contact">
+		<h1 role="heading" id="contact" aria-level=2>Contact Me</h1>
+		<p>feel free to reatch out at <a href="vivesh103@gmail.com">vivesh103@gmail.com</a></p>
 			
-		</nav>
-		<img src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=" alt="Erro image Loading..." width="300px">
+		</footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
