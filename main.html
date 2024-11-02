@@ -4,55 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 	<nav role="navigation">
-		<ul>
-			<li>
+		<ul role="list">
+			<li role="listitem">
 				<a  href="#home">Home</a>
 			</li>
-			<li>
+			<li role="listitem">
 				<a  href="about">About</a>
 			</li>
-			<li>
+			<li role="listitem">
 				<a  href="#project">Projects</a>
 			</li>
-			<li>
+			<li role="listitem">
 				<a  href="#contact">Contact us</a>
 			</li>
 		</ul>
 	</nav>
 	<!-- main containt -->
-	<mani>
+	<main>
 		<h1 role="heading" aria-level="1"> My Portfolio</h1>
-		<img src="https://img.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?semt=ais_hybrid" width="200px">
+		<img src="https://img.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg?semt=ais_hybrid" width="200px" role="img">
 		<section aria-labelledby="about">
 		<h1 id="about" role="heading" aria-level="2">About Me</h1>
 		<P> Welcome to my portfolio! I'm vivesh, a passionate web developer with a focus on accessibility and usability. Here, you can find some of my projects and skills. </P>
 	</section>
-		<section aria-labelledby="project">
-			<h1 id="project" role="heading" aria-level=2>Projects</h1>
-			<ul>
-				<li>
-					<a href="web">Web-Designer</a>
-				</li>
-				<li>
-					<a role href="ux">UX-Designer</a>
-				</li>
-				<li>
-					<a href="e-commerce">E-commerce Designer</a>
-				</li>
-			</ul>
-		</section>
 		
-	</mani>
-	<footer aria-labelledby="contact">
-		<h1 role="heading" id="contact" aria-level=2>Contact Me</h1>
-		<p>feel free to reatch out at <a href="vivesh103@gmail.com">vivesh103@gmail.com</a></p>
-			
-		</footer>
+	</main>
     <script type="text/javascript" src="./script.js">
 </script>
 
